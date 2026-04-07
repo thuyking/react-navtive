@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-import { View, Text } from "react-native";
-import React from "react";
-
-const subscriptions = () => {
-  return (
-    <View>
-      <Text>subscriptions</Text>
-    </View>
-=======
 import { Text } from "react-native";
 import React from "react";
 import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
@@ -18,7 +8,6 @@ const subscriptions = () => {
     <SafeAreaView className="flex-1 justify-center items-center bg-background p-5">
       <Text>subscriptions</Text>
     </SafeAreaView>
->>>>>>> master
   );
 };
 

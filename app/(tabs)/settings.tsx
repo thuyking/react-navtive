@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-import { View, Text } from "react-native";
-import React from "react";
-
-const settings = () => {
-  return (
-    <View>
-      <Text>settings</Text>
-    </View>
-=======
 import { Text } from "react-native";
 import React from "react";
 import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
@@ -18,7 +8,6 @@ const settings = () => {
     <SafeAreaView className="flex-1 justify-center items-center bg-background p-5">
       <Text>settings</Text>
     </SafeAreaView>
->>>>>>> master
   );
 };
 
