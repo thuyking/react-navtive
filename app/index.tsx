@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "@/global.css";
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
@@ -37,4 +38,10 @@ export default function Index() {
       </Link>
     </View>
   );
+=======
+import { Redirect } from "expo-router";
+import "@/global.css";
+export default function Index() {
+  return <Redirect href="/(tabs)" />;
+>>>>>>> master
 }
